@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url('https://images7.alphacoders.com/119/1195938.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff00;
+}
+
+li {
+    display:inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:red;
+    border-radius: 10px;
+}
+
+ul li ul {
+    background-color:#2c3e5000;
+    display:none;
+    position:absolute;
+    width:120px
+}
+
+ul li:hover ul{
+    display:block;
+}
+li ul li {
+    display:block; 
+}
+.area{
+    color:white;
+}
+h1{
+    color:white;
+    font-size: 50px;
+    
+}
+
+h2{
+    font-size:30px;
+}
+
+li1 {
+    display:inline-block;
+    margin:40px;
+    padding:10px;
+    }
+li1 p{
+    color:black;
+    
+}
+a{
+    text-decoration: none;
+}
+ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+        0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+        0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  .alt a{
+    text-decoration: none;
+    font-size: 17px;
+    color:yellow;
+}
+
+.alt a:hover{
+    color:yellowgreen;
+}
+
+.alt a:active{
+    color:red;
+}
+
+.altp{
+    color:white;
+}
+
+p1{
+    font-size: 18.5px;
+}
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
